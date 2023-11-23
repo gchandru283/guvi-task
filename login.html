@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login</title>
+  <link rel="stylesheet" href="assets/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css"/>
+  
+</head>
+<body>
+
+  <div class="container mt-5 d-flex flex-column gap-3 align-items-center">
+      <h2 class="border-bottom border-2 border-black pb-2">User Login</h2>
+      <img class="image2" src="assets/images/login.jpg"/>
+      <form id="loginForm" class="d-flex flex-column align-items-center gap-3">
+        <div class="d-flex flex-column flex-md-row gap-md-2 w-100 justify-content-between"><label for="email">Email Address :</label><input class="focus-ring focus-ring-light rounded-1 border-1 px-2" type="email" id="email"/></div>
+        <div class="d-flex flex-column flex-md-row gap-md-2 w-100 justify-content-between"><label for="password">Password :</label><input class="focus-ring focus-ring-light rounded-1 border-1 px-2" type="password" id="email"/></div>
+
+      <button type="button" class="btn-sm btn btn-primary px-3" onclick="loginUser()">Login</button>
+    </form>
+  </div>
+
+  <script src="assets/jQuery/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="assets/js/login.js"></script>
+</body>
+</html>
